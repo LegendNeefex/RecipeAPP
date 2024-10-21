@@ -1552,6 +1552,12 @@ video {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:right-16 {
     right: 4rem;
@@ -1603,6 +1609,10 @@ video {
 
   .md\:left-\[370px\] {
     left: 370px;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-auto {
@@ -1823,6 +1833,10 @@ video {
 
   .xl\:ml-\[1px\] {
     margin-left: 1px;
+  }
+
+  .xl\:block {
+    display: block;
   }
 
   .xl\:w-auto {
