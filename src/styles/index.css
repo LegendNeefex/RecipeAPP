@@ -1,0 +1,105 @@
+body{
+    @apply font-prompt;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
+    
+}
+
+.img{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+    .img{
+        width: 400px;
+    }
+    
+}
+
+/* Banner curve */
+.custom-shape-divider-top-1729083569 {
+    position: absolute;
+    top: 590px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
+
+.custom-shape-divider-top-1729083569 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 250px;
+}
+
+.custom-shape-divider-top-1729083569 .shape-fill {
+    fill: #00A896;
+    /* fill: #000; */
+}
+
+@media screen and (max-width:1024px) {
+    .custom-shape-divider-top-1729083569{
+        top: 907px;
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .custom-shape-divider-top-1729083569{
+        top: 935px;
+        display: none;
+    }
+}
+@media screen and (max-width:640px) {
+    .custom-shape-divider-top-1729083569{
+        top: 909px;
+        display: none;
+    }
+}
+
+/* About curve */
+.custom-shape-divider-top-1729089182 {
+    position: absolute;
+    top: 1390px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1729089182 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+}
+
+.custom-shape-divider-top-1729089182 .shape-fill {
+    fill: #D0AD41;
+    /* fill: #000; */
+}
+
+@media screen and (max-width:1024px) {
+    .custom-shape-divider-top-1729089182{
+        top: 1950px;
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .custom-shape-divider-top-1729089182{
+        top: 2070px;
+        display: none;
+    }
+}
+@media screen and (max-width:640px) {
+    .custom-shape-divider-top-1729089182{
+        top: 1955px;
+        display: none;
+    }
+}
