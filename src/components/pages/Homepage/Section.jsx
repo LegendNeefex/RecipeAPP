@@ -55,7 +55,7 @@ function Section() {
             </div>
         </div>
         <div className='relative w-[100%]'>
-         <img src="/images/vector 4.png" alt="triangele" className='absolute left-[50%] z-10 ' />
+         <img src="/images/vector-4.png" alt="triangle" className='absolute left-[50%] z-10 ' />
         </div>
     </>
   )

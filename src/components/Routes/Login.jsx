@@ -69,9 +69,9 @@ function Login() {
                 <div className='fixed inset-0 bg-black bg-opacity-50 z-20'></div>
 
                 <div className=' bg-accent1 rounded-xl shadow-custom w-[400px] absolute left-[900px] mt-5 z-30 max-lg:left-0 max-lg:w-[370px] max-lg:ml-2 xl:left-[500px] xl:top-[130px] md:left-[370px]' ref={formRef}>
-                    <div className='relative xl:block max-lg:hidden md:hidden sm:hidden'>
-                        <img src="/images/vector 2.png" alt="vector 2" className='absolute -left-[1px] max-lg:top-[0.7px]' />
-                        <img src="/images/vector 3.png" alt="vector 3" className='absolute left-[303px] max-lg:left-[273px]' />
+                    <div className='relative'>
+                        <img src="/images/vector-2.png" alt="vector 2" className='absolute -left-[1px] max-lg:top-[0.7px]' />
+                        <img src="/images/vector-3.png" alt="vector 3" className='absolute left-[303px] max-lg:left-[273px]' />
                     </div>
                     <div className='p-10 max-lg:p-6'>
                         <div className='text-center'>
